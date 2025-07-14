@@ -1,0 +1,11 @@
+{
+    "appName": {
+        "message": "Bookmarklet Sync from GitHub"
+    },
+    "appShortName": {
+        "message": "Bookmarklet Sync from GitHub"
+    },
+    "appDescription": {
+        "message": "Syncs bookmarklets from a GitHub repository to your browser favorites bar"
+    }
+}
