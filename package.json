@@ -1,12 +1,12 @@
 {
 	"name": "bookmarklet-sync-from-github",
-	"description": "Syncs bookmarklets from a GitHub repository to your browser favorites bar",
-	"version": "0.0.1",
-	"homepage": "http://chrome.google.com/webstore",
+	"description": "Chromium extension to sync bookmarklets from a GitHub repository to your browser favorites bar",
+	"version": "1.0.0",
+	"homepage": "https://github.com/brycewc/bookmarklet-sync-from-github",
 	"author": "Bryce Cindrich",
 	"repository": {
 		"type": "git",
-		"url": "ENTER GIT REPO URL"
+		"url": "https://github.com/brycewc/bookmarklet-sync-from-github"
 	},
 	"scripts": {
 		"start": "xt-build -e dev -w",
@@ -30,6 +30,9 @@
 	"devDependencies": {
 		"extension-cli": "latest"
 	},
+	"dependencies": {
+		"terser": "^5.43.1"
+	},
 	"xtdocs": {
 		"source": {
 			"include": [
@@ -49,8 +52,5 @@
 				"src": "./src/popup.js"
 			}
 		]
-	},
-	"dependencies": {
-		"terser": "^5.43.1"
 	}
 }

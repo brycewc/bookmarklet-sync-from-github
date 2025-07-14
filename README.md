@@ -1,24 +1,23 @@
 # Bookmarklet Sync from GitHub
 
-Syncs bookmarklets from a GitHub repository to your browser favorites bar
+A Chromium extension to syncs bookmarklets from a GitHub repository of JavaScript files to your browser favorites bar. Originally created from [yeger00/marklet-hub](https://github.com/yeger00/marklet-hub) - updated the process of converting the JavaScript to bookmarklet code to use the same process as [bookmarkletify](https://marketplace.visualstudio.com/items?itemName=saasan.bookmarkletify).
 
-## Development 
+## Contributing
 
-This extension was created with [Extension CLI](https://oss.mobilefirst.me/extension-cli/)!
+Feel free to open issues or submit pull requests if you experience any bugs or have improvement suggestions.
 
-If you find this software helpful [star](https://github.com/MobileFirstLLC/extension-cli/) or [sponsor](https://github.com/sponsors/MobileFirstLLC) this project.
-
+This extension was created with [Extension CLI](https://oss.mobilefirst.me/extension-cli/).
 
 ### Available Commands
 
-| Commands | Description |
-| --- | --- |
+| Commands        | Description                         |
+| --------------- | ----------------------------------- |
 | `npm run start` | build extension, watch file changes |
-| `npm run build` | generate release version |
-| `npm run docs` | generate source code docs |
-| `npm run clean` | remove temporary files |
-| `npm run test` | run unit tests |
-| `npm run sync` | update config files |
+| `npm run build` | generate release version            |
+| `npm run docs`  | generate source code docs           |
+| `npm run clean` | remove temporary files              |
+| `npm run test`  | run unit tests                      |
+| `npm run sync`  | update config files                 |
 
 For CLI instructions see [User Guide &rarr;](https://oss.mobilefirst.me/extension-cli/)
 
