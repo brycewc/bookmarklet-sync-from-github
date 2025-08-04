@@ -1,4 +1,4 @@
-# Privacy Policy for "GitHub Bookmarklet Sync"
+# Privacy Policy for Bookmarklet Sync from GitHub
 
 **Effective Date:** August 4, 2025
 
