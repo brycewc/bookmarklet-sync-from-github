@@ -22,10 +22,7 @@
 	"background": {
 		"service_worker": "background.js"
 	},
-	"host_permissions": [
-		"https://api.github.com/*",
-		"https://raw.githubusercontent.com/*"
-	],
+	"host_permissions": [],
 	"action": {
 		"default_icon": {
 			"16": "assets/img/16x16.png",
