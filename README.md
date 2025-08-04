@@ -1,6 +1,6 @@
 # Bookmarklet Sync from GitHub
 
-A Chromium extension to syncs bookmarklets from a GitHub repository of JavaScript files to your browser favorites bar. Originally created from [yeger00/marklet-hub](https://github.com/yeger00/marklet-hub) - updated the process of converting the JavaScript to bookmarklet code to use the same process as [bookmarkletify](https://marketplace.visualstudio.com/items?itemName=saasan.bookmarkletify).
+A Chromium extension to creates bookmarklets from a GitHub repository of JavaScript files in your browser favorites bar. Originally created from [yeger00/marklet-hub](https://github.com/yeger00/marklet-hub) - updated the process of converting the JavaScript to bookmarklet code to use the same process as [bookmarkletify](https://marketplace.visualstudio.com/items?itemName=saasan.bookmarkletify).
 
 ## Installation Instructions
 

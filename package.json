@@ -1,6 +1,6 @@
 {
 	"name": "bookmarklet-sync-from-github",
-	"description": "Chromium extension to sync bookmarklets from a GitHub repository to your browser favorites bar",
+	"description": "Converts a GitHub repository of JavaScript files to bookmarklets (favlets) and syncs them to your browser favorites bar",
 	"version": "1.0.0",
 	"homepage": "https://github.com/brycewc/bookmarklet-sync-from-github",
 	"author": "Bryce Cindrich",

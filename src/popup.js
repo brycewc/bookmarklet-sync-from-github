@@ -16,11 +16,17 @@ document.addEventListener('DOMContentLoaded', () => {
 		// Save settings
 		chrome.storage.sync.set({ org, repo, token, folderName });
 
+		// Show loading icon
+		const statusEl = document.getElementById('status');
+		statusEl.innerHTML =
+			'<span id="loading-icon" style="display:inline-block;width:20px;height:20px;"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 50 50"><circle cx="25" cy="25" r="20" stroke="#888" stroke-width="5" fill="none" stroke-dasharray="31.4 31.4" stroke-linecap="round"><animateTransform attributeName="transform" type="rotate" from="0 25 25" to="360 25 25" dur="1s" repeatCount="indefinite"/></circle></svg></span>Syncing...';
+
 		// Send message to background script to start sync
 		chrome.runtime.sendMessage(
 			{ action: 'startSync', org, repo, token, folderName },
 			(response) => {
-				document.getElementById('status').textContent = response.message;
+				// Hide loading icon and show status
+				statusEl.innerHTML = response.message;
 			}
 		);
 	});

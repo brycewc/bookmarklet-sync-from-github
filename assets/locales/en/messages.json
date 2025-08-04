@@ -3,9 +3,9 @@
         "message": "Bookmarklet Sync from GitHub"
     },
     "appShortName": {
-        "message": "Bookmarklet Sync from GitHub"
+        "message": "Favlet Sync"
     },
     "appDescription": {
-        "message": "Syncs bookmarklets from a GitHub repository to your browser favorites bar"
+        "message": "Converts a GitHub repository of JavaScript files to bookmarklets (favlets) and syncs them to your browser favorites bar"
     }
 }
