@@ -4,11 +4,12 @@ A Chromium extension to creates bookmarklets from a GitHub repository of JavaScr
 
 ## Installation Instructions
 
-### From Chrome Web Store and Edge Add-ons
+### Option 1:
 
-_(Coming soon)_
+- [Chrome Web Store - Bookmarklet Sync from GitHub](https://chromewebstore.google.com/detail/bookmarklet-sync-from-git/hfckbalabggfedpkmlhmnelkjnnfmgjj) (also works for Edge)
+- Edge Add-ons - Under review, coming soon
 
-### Manual Installation
+### Option 2: Manual Installation
 
 1. Download the files in the dist directory to your local machine
 2. Open your browser and navigate to `chrome://extensions/` (`edge://extensions/` for Edge)
