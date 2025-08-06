@@ -1,7 +1,7 @@
 {
 	"name": "bookmarklet-sync-from-github",
 	"description": "Converts a GitHub repository of JavaScript files to bookmarklets (favlets) and syncs them to your browser favorites bar",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"homepage": "https://github.com/brycewc/bookmarklet-sync-from-github",
 	"author": "Bryce Cindrich",
 	"repository": {

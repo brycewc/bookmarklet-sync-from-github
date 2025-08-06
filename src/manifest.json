@@ -3,8 +3,8 @@
 	"short_name": "Favlet Sync",
 	"description": "Converts a GitHub repository of JavaScript files to bookmarklets (favlets) and syncs them to your browser favorites bar",
 	"homepage_url": "https://github.com/brycewc/bookmarklet-sync-from-github",
-	"version": "1.0.0",
-	"version_name": "1.0.0",
+	"version": "1.0.1",
+	"version_name": "1.0.1",
 	"manifest_version": 3,
 	"default_locale": "en",
 	"minimum_chrome_version": "88",
@@ -22,7 +22,10 @@
 	"background": {
 		"service_worker": "background.js"
 	},
-	"host_permissions": [],
+	"host_permissions": [
+		"https://api.github.com/*",
+		"https://raw.githubusercontent.com/*"
+	],
 	"action": {
 		"default_icon": {
 			"16": "assets/img/16x16.png",
